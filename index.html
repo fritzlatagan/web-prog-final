@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JLJ Food Hub</title>
+
+    <!-- favicon -->
+    <link rel="stylesheet" href="./assets/favicon" type="image/svg+xml" />
+
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- PRELOAD IMAGES -->
+    <link rel="preload" as="iamge" href="./images/hero-slider-1.jpg" />
+    <link rel="preload" as="iamge" href="./images/hero-slider-2.jpg" />
+    <link rel="preload" as="iamge" href="./images/hero-slider-3.jpg" />
+  </head>
+
+  <body>
+    <!-- PRELOADER -->
+    <div class="preload" data-preload>
+      <div class="circle"></div>
+      <p class="text">JLJ Food hub</p>
+    </div>
+
+    <!-- TOP BAR -->
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <!-- LOCATION -->
+          <span class="span"> Green Meadows Subdivision </span>
+        </address>
+
+        <div class="separator"></div>
+        <!-- OPENING TIME -->
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">Daily : 7.00 pm to 12.00 am</span>
+        </div>
+
+        <!-- PHONE NUMBER -->
+        <a href="tel:+639279467614" class="topbar-item">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <!-- TELEPHONE NUMBER -->
+          <span class="span">+639279467614</span>
+        </a>
+
+        <!-- EMAIL -->
+        <a href="mailto:jljfoodhub@gmail.com" class="topbar-item">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <!-- EMAIL ADDRESS -->
+          <span class="span">jljfoodhub@gmail.com</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header" data-header>
+      <div class="container">
+
+        <!-- LOGO -->
+        <a href="#" class="logo">
+          <img src="./images/logo.svg" width="160" height="50" alt="JLJ - Home"/>
+        </a>
+
+        <!-- NAVBAR -->
+        <nav class="navbar active" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img src="./images/logo.svg" width="160" height="50" alt="JLJ - Home"/>
+          </a>
+
+          <!-- NAVBAR-LIST -->
+          <ul class="navbar-list">
+            
+            <!-- HOME -->
+            <li class="navbar-item">
+                <a href="#home" class="navbar-link hover-underline active">
+                    <div class="separator"></div>
+
+                    <span class="span">Home</span>
+
+                </a>
+            </li>
+
+            <!-- MENUS -->
+            <li class="navbar-item">
+                <a href="#menu" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Menus</span>
+                    
+                </a>
+            </li>
+
+            <!-- ABOUT -->
+            <li class="navbar-item">
+                <a href="#about" class="navbar-link hover-underline ">
+                    <div class="separator"></div>
+
+                    <span class="span">About Us</span>
+                    
+                </a>
+            </li>
+
+            <!-- OUR CHEFS -->
+            <li class="navbar-item">
+                <a href="#menu" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Our Chefs</span>
+                    
+                </a>
+            </li>
+
+            <!-- CONTACT -->
+            <li class="navbar-item">
+                <a href="#" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Contact</span>
+                    
+                </a>
+            </li>
+
+
+          </ul>
+
+          <!-- Text Center -->
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+
+            <address class="body-4">
+                Green Meadows Subd. Davao City, <br>
+                Main Road
+            </address>
+
+            <p class="body-4 navbar-text">Open : 7.00 pm to 12.00 am</p>
+
+            <a href="mailto:jljfoodhub@gmail.com" class="sidebar-link">jljfoodhub@gmail.com</a>
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Booking Request</p>
+            <a href="tel:+639279467614" class="body-1 contact-number hover-underline">+639279467614
+            </a>
+
+
+          </div>
+
+        </nav>
+
+        <a href="#" class="btn btn-secondary">
+          <span class="text text-1">Find a Table</span>
+
+          <span class="text text-2" aria-hidden="true">Find a Table</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      
+      </div>
+
+    </header>
+
+    <!-- SCRIPT -->
+    <script src="./js/script.js"></script>
+
+    <!-- ION-ICON -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
