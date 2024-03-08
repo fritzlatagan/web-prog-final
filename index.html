@@ -6,7 +6,7 @@
     <title>JLJ Food Hub</title>
 
     <!-- favicon -->
-    <link rel="stylesheet" href="./assets/favicon" type="image/svg+xml" />
+    <link rel="stylesheet" href="./favicon" type="image/svg+xml" />
 
     <!-- google font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -79,11 +79,12 @@
 
         <!-- LOGO -->
         <a href="#" class="logo">
-          <img src="./images/logo.svg" width="160" height="50" alt="JLJ - Home"/>
+          <!-- <img src="./images/logo.svg" width="160" height="50" alt="JLJ - Home"/> -->
+          <img src="./images/jlj-logo-2x.png" width="160" height="50" alt="JLJ - Home"/>
         </a>
 
         <!-- NAVBAR -->
-        <nav class="navbar active" data-navbar>
+        <nav class="navbar" data-navbar>
           <button class="close-btn" aria-label="close menu" data-nav-toggler>
             <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
           </button>
@@ -114,6 +115,16 @@
                     
                 </a>
             </li>
+
+            <!-- CATERING -->
+            <li class="navbar-item">
+              <a href="#catering" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+
+                  <span class="span">Catering</span>
+                  
+              </a>
+          </li>
 
             <!-- ABOUT -->
             <li class="navbar-item">
@@ -184,12 +195,778 @@
           <span class="line line-3"></span>
         </button>
 
-        <div class="overlay" data-nav-toggler data-overlay></div>
+        <div class="overlay active" data-nav-toggler data-overlay></div>
       
       </div>
 
     </header>
 
+    <main>
+      <article>
+
+        <!-- #HERO -->
+        <section class="hero text-center" aria-label="home" id="home">
+          
+          <ul class="hero-slider" data-hero-slider>
+
+            <li class="slider-item active" data-hero-slider-item>
+              
+              <div class="slider-bg">
+                <img src="./images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">Traditional & Hygine</p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                For the love of <br>
+                delicious food
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Come with family & feel the joy of mouthwatering food
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View Our Menu</span>
+
+                <span class="text text-2" aria-hidden="true">View Our Menu</span>
+              </a>
+
+            </li>
+          
+          
+            <li class="slider-item" data-hero-slider-item>
+
+              <div class="slider-bg">
+                <img src="./images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">Delightful Experience</p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Flavors Inspired <br>
+                the Seasons
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Come with family & feel the joy of mouthwatering food
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View Our Menu</span>
+
+                <span class="text text-2" aria-hidden="true">View Our Menu</span>
+              </a>
+
+            </li>
+          
+            <li class="slider-item" data-hero-slider-item>
+
+              <div class="slider-bg">
+                <img src="./images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+              </div>
+  
+              <p class="label-2 section-subtitle slider-reveal">Amazing & Delicious</p>
+  
+              <h1 class="display-1 hero-title slider-reveal">
+                Where every flavor <br>
+                tells a story
+              </h1>
+  
+              <p class="body-2 hero-text slider-reveal">
+                Come with family & feel the joy of mouthwatering food
+              </p>
+  
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View Our Menu</span>
+  
+                <span class="text text-2" aria-hidden="true">View Our Menu</span>
+              </a>
+  
+            </li>
+          
+          
+          </ul>
+
+          <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+  
+          <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+  
+          <a href="#" class="hero-btn has-after">
+            <img src="/images/hero-icon.png" width="48" height="48" alt="booking icon">
+  
+            <span class="label-2 text-center span">Book A Table</span>
+          </a>
+
+        </section>
+
+
+        <!-- #SERVICE -->
+        <section class="section service bg-black-10 text-center" aria-label="service">
+
+          <div class="container">
+  
+            <p class="section-subtitle label-2">Flavors For Royalty</p>
+  
+            <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+  
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys
+              standard dummy text ever.
+            </p>
+  
+            <ul class="grid-list">
+  
+              <li>
+                <div class="service-card">
+  
+                  <a href="#" class="has-before hover:shine">
+                    <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                      <img src="https://pepper.ph/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3knbc2s%2Fproduction%2Fb0412271b9b94da01d0cf1d0c41ca054a3e35fff-2500x1500.jpg&w=1920&q=75" width="285" height="336" loading="lazy" alt="Breakfast"
+                        class="img-cover">
+                    </figure>
+                  </a>
+  
+                  <div class="card-content">
+  
+                    <h3 class="title-4 card-title">
+                      <a href="#">Breakfast</a>
+                    </h3>
+  
+                    <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="service-card">
+  
+                  <a href="#" class="has-before hover:shine">
+                    <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                      <img src="https://pepper.ph/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3knbc2s%2Fproduction%2F65b5de5720faaba6747b859bf00b00e2ed12955a-1024x605.jpg&w=1920&q=75" width="285" height="336" loading="lazy" alt="Appetizers"
+                        class="img-cover">
+                    </figure>
+                  </a>
+  
+                  <div class="card-content">
+  
+                    <h3 class="title-4 card-title">
+                      <a href="#">Appetizers</a>
+                    </h3>
+  
+                    <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="service-card">
+  
+                  <a href="#" class="has-before hover:shine">
+                    <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                      <img src="./images/sola.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                        class="img-cover">
+                    </figure>
+                  </a>
+  
+                  <div class="card-content">
+  
+                    <h3 class="title-4 card-title">
+                      <a href="#">Drinks</a>
+                    </h3>
+  
+                    <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+            <img src="./images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+              class="shape shape-1 move-anim">
+            <img src="./images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+              class="shape shape-2 move-anim">
+  
+          </div>
+        
+        
+        </section>
+
+        <!-- #ABOUT -->
+        <section class="section about text-center" aria-labelledby="about-label" id="about">
+          <div class="container">
+  
+            <div class="about-content">
+  
+              <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+  
+              <h2 class="headline-1 section-title">About Us</h2>
+  
+              <p class="section-text">
+                Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
+                industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled
+                it to make a type specimen book It has survived not only five centuries, but also the leap into.
+              </p>
+  
+              <div class="contact-label">Book Through Call</div>
+  
+              <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+639279467614</a>
+  
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Read More</span>
+  
+                <span class="text text-2" aria-hidden="true">Read More</span>
+              </a>
+  
+            </div>
+  
+            <figure class="about-banner">
+  
+              <img src="./images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+                class="w-100" data-parallax-item data-parallax-speed="1">
+  
+              <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+                <img src="./images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                  class="w-100">
+              </div>
+  
+              <div class="abs-img abs-img-2 has-before">
+                <img src="./images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+              </div>
+  
+            </figure>
+  
+            <img src="./images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+  
+          </div>
+        </section>
+  
+        <!-- #SPECIAL DISH -->
+        <section class="special-dish text-center" aria-labelledby="dish-label">
+
+          <div class="special-dish-banner">
+            <img src="https://pepper.ph/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3knbc2s%2Fproduction%2F2fe07005202eaa476734054d1d731026b83c1389-2500x1500.jpg&w=1920&q=75" width="940" height="900" loading="lazy" alt="special dish"
+              class="img-cover">
+          </div>
+  
+          <div class="special-dish-content bg-black-10">
+            <div class="container">
+  
+              <img src="./images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+  
+              <p class="section-subtitle label-2">Special Dish</p>
+  
+              <h2 class="headline-1 section-title">Cheesy Baked Tahong</h2>
+  
+              <p class="section-text">
+                Turn tahong or mussels into an elegant appetizer with a cheesy baked topping, brightened by crunchy, lemony breadcrumbs.
+              </p>
+  
+              <div class="wrapper">
+                <del class="del body-3">₱40.00</del>
+  
+                <span class="span body-1">₱20.00</span>
+              </div>
+  
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">View All Menu</span>
+  
+                <span class="text text-2" aria-hidden="true">View All Menu</span>
+              </a>
+  
+            </div>
+          </div>
+  
+          <img src="./images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+  
+          <img src="./images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+  
+        </section>
+        
+        <!-- #MENU -->
+        <section class="section menu" aria-label="menu-label" id="menu">
+          <div class="container">
+  
+            <p class="section-subtitle text-center label-2">Special Selection</p>
+  
+            <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+  
+            <ul class="grid-list">
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                    <img src="https://pepper.ph/_ipx/w_1920,q_75/https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3knbc2s%2Fproduction%2F60c80fce337695090b1da8153f29538d414ccb49-2500x1500.jpg?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3knbc2s%2Fproduction%2F60c80fce337695090b1da8153f29538d414ccb49-2500x1500.jpg&w=1920&q=75" width="100" height="100" loading="lazy" alt="Sisig"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Lechon Sisig</a>
+                      </h3>
+  
+                      <span class="badge label-1">Best-Seller</span>
+  
+                      <span class="span title-2">₱60.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Lechon kawali sisig, with its tender meat and crispy skin, makes an excellent protein base for sisig.
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                    <img src="https://pepper.ph/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3knbc2s%2Fproduction%2Fc20f7562d5a44237adba7216ae5f173dec920f6f-2500x1500.jpg&w=1920&q=75" width="100" height="100" loading="lazy" alt="Filipino Style Back Ribs"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Filipino Style Back Ribs</a>
+                      </h3>
+  
+                      <span class="span title-2">₱40.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Use Filipino BBQ's sticky-sweet, banana ketchup-based marinade to coat these baby back ribs.
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                    <img src="https://pepper.ph/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3knbc2s%2Fproduction%2F8c0985c9113d3ad253bde06c281574d90c97b129-2500x1500.jpg&w=1920&q=75" width="100" height="100" loading="lazy" alt="Humba"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Humba</a>
+                      </h3>
+  
+                      <span class="span title-2">₱10.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Braised pork belly in pineapple juice and soy sauce, then studded with salted black beans.
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                    <img src="https://pepper.ph/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3knbc2s%2Fproduction%2F20d7a65b5be8b1b90dac5995c0265fea7a3798be-2500x1500.jpg&w=1920&q=75" width="100" height="100" loading="lazy" alt="Tokwa’t Baboy"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Tokwa’t Baboy</a>
+                      </h3>
+  
+                      <span class="badge label-1">New</span>
+  
+                      <span class="span title-2">₱39.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Combines fried tofu and crispy pork belly in a marinade of soy sauce, vinegar, aromatics, and chilies.
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                    <img src="https://pepper.ph/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3knbc2s%2Fproduction%2Fa50ca0f73acc78e51b04b9ed8c41f0fa4a8c94f1-2500x1500.jpg&w=1920&q=75" width="100" height="100" loading="lazy" alt="Pancit Bihon"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Pancit Bihon</a>
+                      </h3>
+  
+                      <span class="span title-2">₱25.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Keep this classic pancit bihon recipe in your back pocket for birthdays, fiestas, and special occasions.
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                    <img src="https://pepper.ph/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ff3knbc2s%2Fproduction%2F131e856f44381bc6a0dade876d4b8d8059ad8784-2500x1500.jpg&w=1920&q=75" width="100" height="100" loading="lazy" alt="Spicy Adobong Manok"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Spicy Adobong Manok</a>
+                      </h3>
+  
+                      <span class="span title-2">₱49.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Want to give your chicken and pork adobo a spicy kick? Add chili garlic sauce!
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+  
+            </ul>
+  
+            <p class="menu-text text-center">
+              During weekends: <span class="span">6:00 pm</span> to <span class="span">11:00 pm</span>
+            </p>
+  
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">View All Menu</span>
+  
+              <span class="text text-2" aria-hidden="true">View All Menu</span>
+            </a>
+  
+            <img src="./images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+              class="shape shape-2 move-anim">
+            <img src="./images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+              class="shape shape-3 move-anim">
+  
+          </div>
+        </section>
+
+        <!---#FEATURES-->
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+
+            <p class="section-subtitle label-2">Why Choose Us</p>
+
+            <h2 class="headline-1 section-title">Our Strength</h2>
+
+            <ul class="grid-list">
+
+              <li class="feature-item">
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <img src="./images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+
+                  <h3 class="title-2 card-title">Hygienic Food</h3>
+
+                  <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <img src="./images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+
+                  <h3 class="title-2 card-title">Fresh Environment</h3>
+
+                  <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <img src="./images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+
+                  <h3 class="title-2 card-title">Skilled Chefs</h3>
+
+                  <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <img src="./images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+
+                  <h3 class="title-2 card-title">Event & Party</h3>
+
+                  <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <img src="./images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+              class="shape shape-1">
+
+            <img src="./images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+              class="shape shape-2">
+
+          </div>
+        </section>
+      <!--- #EVENT-->
+      <section class="section event bg-black-10" aria-label="event" id="catering">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Customization options available upon request</p>
+
+          <h2 class="section-title headline-1 text-center">Catering</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="width: 350px; height: 450px;">
+                  <img src="https://foodtray2go.com/wp-content/themes/foodtray2go/assets/img/img-jpg-intimategatherings-op.jpg" width="350" height="450" loading="lazy"
+                    alt="Bundle 1" class="img-cover">
+
+                  <time class="publish-date label-2">10% OFF</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Good for 6 Pax</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Bundle 1
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="width: 350px; height: 450px;">
+                  <img src="https://foodtray2go.com/wp-content/themes/foodtray2go/assets/img/img-jpg-eventswecaterto-op.jpg" width="350" height="450" loading="lazy"
+                    alt="Bundle 2." class="img-cover">
+
+                  <time class="publish-date label-2">15% OFF</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Good for 8 Pax</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Bundle 2
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="https://foodtray2go.com/wp-content/themes/foodtray2go/assets/img/img-jpg-yoursafety-op.jpg" width="350" height="450" loading="lazy"
+                    alt="Bundle 3." class="img-cover">
+
+                  <time class="publish-date label-2">25% OFF</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Custom Pax</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Bundle 3
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Blog</span>
+
+            <span class="text text-2" aria-hidden="true">View Our Blog</span>
+          </a>
+
+        </div>
+      </section>
+      </article>
+    </main>
+
+    <!-- #FOOTER-->
+
+  <footer class="footer section has-bg-image text-center"
+  style="background-image: url('./images/footer-bg.jpg')">
+  
+  <div class="container">
+
+    <div class="footer-top grid-list">
+
+      <div class="footer-brand has-before has-after">
+
+        <a href="#" class="logo">
+          <img src="./images/jlj-logo-2x.png" width="160" height="50" loading="lazy" alt="grilli home">
+        </a>
+
+        <address class="body-4">
+          Green Meadows Subdivision
+        </address>
+
+        <a href="mailto:jljfoodhub@gmail.com" class="body-4 contact-link">jljfoodhub@gmail.com</a>
+
+        <a href="tel:+88123123456" class="body-4 contact-link">Booking Request : +639279467614</a>
+
+        <p class="body-4">
+          Open : 7.00 pm to 12.00 am
+        </p>
+
+        <div class="wrapper">
+          <div class="separator"></div>
+          <div class="separator"></div>
+          <div class="separator"></div>
+        </div>
+
+        <p class="title-1">Get News & Offers</p>
+
+        <p class="label-1">
+          Subscribe us & Get <span class="span">25% Off.</span>
+        </p>
+
+        <form action="" class="input-wrapper">
+          <div class="icon-wrapper">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+            <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+          </div>
+
+          <button type="submit" class="btn btn-secondary">
+            <span class="text text-1">Subscribe</span>
+
+            <span class="text text-2" aria-hidden="true">Subscribe</span>
+          </button>
+        </form>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Home</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <p class="copyright">
+        &copy; 2022 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/codewithsadee"
+          target="_blank" class="link">codewithsadee</a>
+      </p>
+
+    </div>
+
+  </div>
+</footer>
     <!-- SCRIPT -->
     <script src="./js/script.js"></script>
 
