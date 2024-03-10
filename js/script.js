@@ -2,7 +2,7 @@
 
 /** 
  *  PRELOAD
- *  loadign will end after document is loaded
+ *  loading will end after document is loaded
  */
 
 const preloader = document.querySelector("[data-preload]");
